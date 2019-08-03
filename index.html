@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="Css/bootstrap.min.css"></script>
+    <link rel="stylesheet" href="Css/style.css"></script>
+    <style type="text/css">
+    body {
+        background-image: url(Images/fondo_ciudad.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <div align="center" class="container">
+                <h1>TIPOS DE ALMACENAMIENTO EN NAVEGADOR</h1>
+        </div>
+    </header>
+<center><a href="session_storage.html"><button><B>SESSION STORAGE</B></button></a>
+<a href="local_storage.html"><button><B>LOCAL STORAGE</B></button></center></a><br>
+<div class="container">
+    <section class="main row">
+            <article class="col-xs-12 col-sm-8 ">
+                    <p>
+                            LocalStorage y sessionStorage son propiedades de HTML5 (web storage),
+                            que permiten almacenar datos en nuestro navegador web.<br>De manera muy 
+                            similar lo hacen las cookies.
+                    </p>
+            </article>
+            <aside class="col-xs-12 col-sm-4 ">
+                    <h2>
+                            <B>LOCAL STORAGE<br>SESSION STORAGE</B>
+                    </h2>
+            </aside>
+    </section>
+    <div class="row">
+            <div class="col-xs-12 col-sm-10">
+                    <p>
+                            <B>local Storage</B><br>
+                            Guarda información que permanecerá almacenada por tiempo indefinido; 
+                            sin importar que el navegador se cierre.
+                                      
+                    </p>
+
+            </div>
+    </div> 
+    <div class="row">
+            <div class="col-xs-12 col-sm-10">
+                     <p>
+                            <B>Session Storage</B><br>
+                            Almacena los datos de una sesión y éstos se eliminan cuando el navegador se cierra.                   
+                    </p>
+
+            </div>
+    </div>
+    <div class="row">
+            <div class="col-xs-12 col-sm-10">
+                    <p>Las características de Local Storage y Session Storage son:<br>
+                            <B>>></B>Permiten almacenar entre 5MB y 10MB de información; incluyendo texto y multimedia.<br>
+                            <B>>></B>La información está almacenada en la computadora del cliente y NO es enviada en cada petición del servidor.<br>
+                            <B>>></B>A diferencia de las cookies utilizan un número mínimo de peticiones al servidor para reducir el tráfico de la red<br> 
+                            <B>>></B>Previenen pérdidas de información cuando se desconecta de la red.<br> 
+                            <B>>></B>la información es guardada por domino web (incluye todas las páginas del dominio).
+                  </p>
+            </div>
+    </div>
+
+</div>
+<footer>
+<h2>
+    by Gerson Ruano
+</h2>
+</footer>  
+<script src="Js/bootstrap.min.js"></script>
+<script src="Js/jquery-3.4.1.min.js"></script>
+</body>
+</html>
